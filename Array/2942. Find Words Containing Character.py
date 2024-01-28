@@ -11,10 +11,6 @@
 # Output: [0,1]
 # Explanation: "e" occurs in both words: "leet", and "code". Hence, we return indices 0 and 1.
 
-
-
-
-
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
         return [i for i, word in enumerate(words) if x in word]
